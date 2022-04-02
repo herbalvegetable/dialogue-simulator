@@ -1,0 +1,38 @@
+var name = Bobby
+var animalType = octopus
+
+-- This is a comment
+
+#prompt-name
+' What is your name?
+## = username
+
+#start
+' Hello [username]! My name is [name]! I am an [animalType].
+' What is your favourite food?
+@sausages Sausages.
+@eggs Eggs.
+@ihatefood I hate food.
+##
+
+#sausages
+' Sausages are pretty yummy!
+>start
+
+#eggs
+' I love eggs too! They are a superfood!
+>start
+
+#ihatefood
+' How are you even alive?
+@noidea I have no idea.
+@nonliving I'm just a non-living thing
+##
+
+#noidea
+' If you say so.
+>start
+
+#nonliving
+' Huh??
+>start

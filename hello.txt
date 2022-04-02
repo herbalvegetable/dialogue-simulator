@@ -1,0 +1,11 @@
+-- Talking Ben program
+
+#prompt_echo
+' I am Talking Ben
+' Say something
+## = text_to_echo
+>echo
+
+#echo
+' [text_to_echo]
+>prompt_echo
